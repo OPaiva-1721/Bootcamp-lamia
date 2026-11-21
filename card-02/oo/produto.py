@@ -22,5 +22,5 @@ p2 = Produto('Caderno', 12.99, 0.2)
 p1.preco = 70
 p2.preco = -1.99  
 
-print(p1.nome, p1.preco, p1.desc, p1.preco_final)
-print(p2.nome, p2.preco, p2.desc, p2.preco_final)
+print(p1.nome, p1.preco, p1.desc, p1.preco_final())
+print(p2.nome, p2.preco, p2.desc, p2.preco_final())
